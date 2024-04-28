@@ -1,5 +1,10 @@
 {
     "compilerOptions": {
-        "allowJs": true
-    }
+        "allowJs": true,
+        "lib": ["DOM", "DOM.Iterable", "ES2023", "ES2023.Array"],
+        "target": "ES2020",
+        "strict": true
+    },
+    "include": ["./klz.ts"],
+    "compileOnSave": true
 }

@@ -1,0 +1,7 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            { "cmd": "npx tsc & npx minify ./klz.js > klz.min.js", "match": ".*ts" }
+        ]
+    }
+}
