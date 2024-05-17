@@ -216,7 +216,7 @@ class Reader {
         el.append(this.parentDiv);
     }
 }
-window.onload = () => {
+window.addEventListener("load", () => {
     if (window.location.hostname.includes("klz9.com")) {
         const devMode = localStorage.getItem("devMode") === "true";
         if (devMode) {
@@ -279,4 +279,4 @@ window.onload = () => {
             window.curReader.appendTo(document.body);
         }
     }
-};
+});
